@@ -1,2 +1,2 @@
 # Biology-Quiz-App
-Biology Questions and Answers Form 2 - Biology Form Two Quiz app.
+My love for biology while in high school inspired me to create my fifth Udacity Android-basics challenge course project. A simple Biology Questions - Biology Form Two quiz app on selected topics.
