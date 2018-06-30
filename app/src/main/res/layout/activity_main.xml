@@ -30,7 +30,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Please enter your name below."
+                    android:text="@string/studentName"
                     android:textAppearance="?android:textAppearanceMedium" />
 
                 <EditText
@@ -38,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:hint="Full Name(s)"
+                    android:hint="@string/nameHintName"
                     android:inputType="textCapWords" />
             </LinearLayout>
 
@@ -62,7 +62,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="I am in form?"
+                    android:text="@string/classForm"
                     android:textAppearance="?android:textAppearanceMedium" />
 
                 <EditText
@@ -70,7 +70,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:hint="Enter form"
+                    android:hint="@string/formHint"
                     android:inputType="text" />
 
             </LinearLayout>
@@ -91,7 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="State the functions of mammalian blood"
+                    android:text="@string/bloodFunction"
                     android:textAppearance="?android:textAppearanceMedium" />
 
                 <RadioGroup
@@ -106,7 +106,7 @@
                         android:layout_marginTop="16dp"
                         android:onClick="onRadioButtonClicked"
                         android:paddingLeft="24dp"
-                        android:text="Transport of substances" />
+                        android:text="@string/substanceTransport" />
 
                     <RadioButton
                         android:id="@+id/bloodClotting"
@@ -115,7 +115,7 @@
                         android:layout_marginTop="16dp"
                         android:onClick="onRadioButtonClicked"
                         android:paddingLeft="24dp"
-                        android:text="Blood clotting" />
+                        android:text="@string/bloodCloting" />
                 </RadioGroup>
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -136,7 +136,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="What is the advantage of counter-flow system?"
+                    android:text="@string/counterFlow"
                     android:textAppearance="?android:textAppearanceMedium" />
 
                 <RadioGroup
@@ -150,7 +150,7 @@
                         android:layout_marginTop="16dp"
                         android:onClick="onRadioButtonClicked"
                         android:paddingLeft="24dp"
-                        android:text="Maintains a diffusion gradient so that there is maximum uptake of oxygen" />
+                        android:text="@string/diffusionGradient" />
 
                     <RadioButton
                         android:id="@+id/OxygenDiffuse"
@@ -159,8 +159,7 @@
                         android:layout_marginTop="16dp"
                         android:onClick="onRadioButtonClicked"
                         android:paddingLeft="24dp"
-                        android:text="Oxygen continues diffusing into blood and carbon iv oxide into Water
-" />
+                        android:text="@string/oxygenContinues" />
                 </RadioGroup>
 
 
@@ -182,7 +181,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Name the respirator diseases"
+                    android:text="@string/respiratorDiseases"
                     android:textAppearance="?android:textAppearanceMedium" />
 
                 <RadioGroup
@@ -196,7 +195,7 @@
                         android:layout_marginTop="16dp"
                         android:onClick="onRadioButtonClicked"
                         android:paddingLeft="24dp"
-                        android:text="asthma" />
+                        android:text="@string/asthma" />
 
                     <RadioButton
                         android:id="@+id/bronchitis"
@@ -205,7 +204,7 @@
                         android:layout_marginTop="16dp"
                         android:onClick="onRadioButtonClicked"
                         android:paddingLeft="24dp"
-                        android:text="Bronchitis" />
+                        android:text="@string/bronchitis" />
 
                     <RadioButton
                         android:id="@+id/tuberculosis"
@@ -214,7 +213,7 @@
                         android:layout_marginTop="16dp"
                         android:onClick="onRadioButtonClicked"
                         android:paddingLeft="24dp"
-                        android:text="Tuberculosis" />
+                        android:text="@string/tuberculosis" />
                 </RadioGroup>
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -234,7 +233,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Did you enjoy this quiz?"
+                    android:text="@string/enjoyQuiz"
                     android:textAppearance="?android:textAppearanceMedium" />
 
                 <CheckBox
@@ -243,8 +242,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:onClick="onCheckboxClicked"
-                    android:paddingLeft="24dp"
-                    android:text="Click here if you enjoyed this quiz."
+                    android:paddingLeft="20dp"
+                    android:text="@string/clickEnjoy"
                     android:textAppearance="?android:textAppearanceSmall" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -257,7 +256,7 @@
             android:layout_marginTop="16dp"
             android:background="#D81B60"
             android:onClick="submitAnswers"
-            android:text="Submit answers"
+            android:text="@string/SubmitAnswers"
             android:textColor="#fff" />
 
     </LinearLayout>

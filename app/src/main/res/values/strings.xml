@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Biology Quiz App</string>
+    <string name="studentName">Please enter your name below.</string>
+    <string name="nameHintName">Full Name(s)</string>
+    <string name="classForm">I am in form?</string>
+    <string name="formHint">Enter form</string>
+    <string name="bloodFunction">State the functions of mammalian blood</string>
+    <string name="substanceTransport">Transport of substances</string>
+    <string name="bloodCloting">Blood clotting</string>
+    <string name="counterFlow">What is the advantage of counter-flow system?</string>
+    <string name="diffusionGradient">Maintains a diffusion gradient so that there is maximum uptake of oxygen</string>
+    <string name="oxygenContinues">Oxygen continues diffusing into blood and carbon iv oxide into Water</string>
+    <string name="respiratorDiseases">Name the respirator diseases</string>
+    <string name="asthma">Asthma</string>
+    <string name="bronchitis">Bronchitis</string>
+    <string name="tuberculosis">Tuberculosis</string>
+    <string name="enjoyQuiz">Did you enjoy this quiz?</string>
+    <string name="clickEnjoy">Click here if you enjoyed this quiz.</string>
+    <string name="SubmitAnswers">Submit Answers</string>
 </resources>
