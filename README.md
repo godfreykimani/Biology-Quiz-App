@@ -6,4 +6,4 @@ Short Preview
 https://drive.google.com/drive/folders/1mzVI3k_ULTN0Gp-nNhm6ruVq-_I0cRZP?ogsrc=32
 
 # Link to the app on Google Drive.
-https://drive.google.com/drive/folders/1mzVI3k_ULTN0Gp-nNhm6ruVq-_I0cRZP?ogsrc=32
+https://drive.google.com/file/d/1SQIs1iZo5iISvqZl1nbtjhROxKSFo-mD/view?usp=sharing
